@@ -1,11 +1,11 @@
 //////////////////////////////
 #if 0
-17:10:39 T0 jgy@Devis7:~/tmp/unixsocket $ gcc unix-echo-server.c -o unix-echo-server -lev -Wall -W -O1 -g
-16:33:00 T0 jgy@Devis7:~/tmp/unixsocket $ ./unix-echo-server
+17:10:39 T0 user@localhost:~/tmp/unixsocket $ gcc unix-echo-server.c -o unix-echo-server -lev -Wall -W -O1 -g
+16:33:00 T0 user@localhost:~/tmp/unixsocket $ ./unix-echo-server
 unix-socket-echo starting...
 unix stream socket has become readable
 accepted a client
-16:33:26 T0 jgy@Devis7:~/tmp/unixsocket $ 
+16:33:26 T0 user@localhost:~/tmp/unixsocket $ 
 #endif
 #include <stdio.h>
 #include <stdlib.h>
