@@ -1,6 +1,6 @@
 /////////////////////
 #if 0
-17:05:29 T1 jgy@Devis7:~/tmp/unixsocket $ gcc unix-echo-client.c -o unix-echo-client -lev -Wall -W -O2 -g
+17:05:29 T1 user@localhost:~/tmp/unixsocket $ gcc unix-echo-client.c -o unix-echo-client -lev -Wall -W -O2 -g
 unix-echo-client.c: In function 'stdin_cb':
 unix-echo-client.c:69:7: warning: variable 'len2' set but not used [-Wunused-but-set-variable]
    int len2; // not sure if this is at all useful
@@ -15,7 +15,7 @@ unix-echo-client.c:67:13: warning: 'stdin_cb' defined but not used [-Wunused-fun
 unix-echo-client.c:78:13: warning: 'remote_cb' defined but not used [-Wunused-function]
  static void remote_cb (EV_P_ ev_io *w, int revents)
              ^
-16:33:03 T1 jgy@Devis7:~/tmp/unixsocket $ ./unix-echo-client
+16:33:03 T1 user@localhost:~/tmp/unixsocket $ ./unix-echo-client
 1533141188......... 1
 1533141190......... 100001
 1533141193......... 200001
@@ -25,7 +25,7 @@ unix-echo-client.c:78:13: warning: 'remote_cb' defined but not used [-Wunused-fu
 1533141200......... 600001
 1533141202......... 700001
 ^C
-16:33:22 T1 jgy@Devis7:~/tmp/unixsocket $ 
+16:33:22 T1 user@localhost:~/tmp/unixsocket $ 
 #endif
 
 
